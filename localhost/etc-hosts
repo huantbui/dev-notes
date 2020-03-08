@@ -1,0 +1,8 @@
+Using an /etc/hosts file for custom domains during development
+
+
+https://support.acquia.com/hc/en-us/articles/360004175973-Using-an-etc-hosts-file-for-custom-domains-during-development
+
+sudo nano /private/etc/hosts
+
+127.0.0.1       sub.domain.com

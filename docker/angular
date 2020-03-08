@@ -1,0 +1,12 @@
+ANGULAR + NGINX
+
+https://medium.com/@DenysVuika/your-angular-apps-as-docker-containers-471f570a7f2
+
+ANGULAR W/OUT NGINX
+https://mherman.org/blog/dockerizing-an-angular-app/
+
+
+
+ANGULAR BUILD + NGINX
+
+https://medium.com/@tiangolo/angular-in-docker-with-nginx-supporting-environments-built-with-multi-stage-docker-builds-bb9f1724e984

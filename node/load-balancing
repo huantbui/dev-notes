@@ -1,0 +1,34 @@
+Load Balancing
+
+https://medium.freecodecamp.org/scaling-node-js-applications-8492bd8afadc
+
+
+
+Before we create a cluster to clone this server into multiple workers, let’s do a simple benchmark of how many requests this server can handle per second. We can use the Apache benchmarking tool for that. After running the simple server.js code above, run this ab command:
+
+ab -c200 -t10 http://localhost:8080/
+
+
+This command will test-load the server with 200 concurrent connections for 10 seconds.
+
+
+
+
+
+Scaling node app
+
+https://medium.com/iquii/good-practices-for-high-performance-and-scalable-node-js-applications-part-1-3-bb06b6204197
+
+A network balancer can be deployed in different ways. If you use AWS to provision your infrastructure, a good choice is to use a managed load balancer like ELB (Elastic Load Balancer), because it supports useful features like auto-scaling, and it is easy to set up.
+
+
+But if you want to do it old-school, you can deploy a machine and setup a balancer with NGINX by yourself. The configuration of a reverse proxy that points to an upstream is quite simple for this job. Below an example for the configuration:
+
+==================================
+
+https://medium.freecodecamp.org/scaling-node-js-applications-8492bd8afadc
+
+
+
+￼
+
