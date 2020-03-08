@@ -1,0 +1,17 @@
+Docker build
+
+
+# building a default ‘Dockerfile’ 
+docker build .
+
+# pointing to a different docker file name
+docker build -f Dockerfile_WithoutBuild .
+
+# with tag
+docker build -f Dockerfile_WithoutBuild . -t mdm-ui:latest
+
+# without cache
+docker build --no-cache -f Dockerfile . -t mdm-ui:latest
+
+
+

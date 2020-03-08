@@ -1,0 +1,29 @@
+Docker Registry
+
+https://docs.docker.com/engine/swarm/stack-deploy/
+
+
+Docker service / stack
+
+
+DEPLOY/START:
+
+docker stack deploy --compose-file=docker-compose.yml <name>
+
+
+STOP:
+docker stack rm <name>
+
+
+VIEW STACK:
+docker stack services <service-name>
+
+
+TAG
+docker tag <app>:latest <registry>:port/<app>:latest
+
+docker push <registry>:port/<app>:latest
+
+
+HELP:
+https://docs.docker.com/engine/swarm/stack-deploy/

@@ -1,0 +1,18 @@
+COMMANDS
+
+go into docker container’s server:
+docker exec -it <container_name> bash
+
+docker ps
+docker container -rm <container-name>
+
+docker images
+docker rmi -f <image-name>
+
+docker-compose build --no-cache
+docker-compose build -d (detach)
+docker-compose up  -d (detach)
+docker-compose down
+
+
+

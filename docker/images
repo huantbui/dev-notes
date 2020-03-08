@@ -1,0 +1,26 @@
+IMAGES
+
+# Save a Docker Image
+
+docker image save [image id] -o image_name.tar
+
+# Secure Copy Tar to Server
+
+scp image_name.tar [remote_user]@[remote_server]:/path/to/save/image
+
+# scp file
+scp nginx.conf root@ip:/opt/docker/
+
+# scp folder
+scp -r build root@<ip>:/opt/docker/
+
+# Load Image on Target Server
+docker image load -i image_name.tar
+
+# Make sure image loaded
+docker images
+
+
+
+ docker image tag tomcat:latest <repo.name>/<image_name>:<image_tag>
+

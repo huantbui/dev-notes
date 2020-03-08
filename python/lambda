@@ -1,0 +1,11 @@
+Lambda
+
+// returns 1 result — break out if matches condition
+next(filter(lambda item: time == ‘expected_value’, item_list))
+
+// returns a list of results — loops through entire list
+list(filter(lambda item: time == ‘expected_value’, item_list))
+
+
+Find in list
+https://stackoverflow.com/questions/9542738/python-find-in-list
